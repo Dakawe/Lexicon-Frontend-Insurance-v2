@@ -3,115 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Insurance Project</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Insurance Project | Home</title>
+    <link rel="stylesheet" href="root.css" />
+    <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="mobile.css" />
   </head>
-  <body>
-    <main class="grid-wrapper" id="main">
-      <div class="family-top c-blue">
-        <h1>We've got you Covered.</h1>
-        <p>
+  <body class="bc-lgrey">
+    <div class="wrap-one">
+      <section class="family-top bc-blue">
+        <h1>We've got you covered.</h1>
+        <p class="fat">
           Together we keep each other safe at home or at work. By paying a tiny fee a day, you are fully insured all day long. You get it all for as little as
-          <b>$0.4 per pay.</b>
+          $0.4 per pay.
         </p>
-      </div>
-      <div class="family-bottom c-blue">
         <button>JOIN NOW</button>
+      </section>
+      <section class="family-bottom bc-blue">
         <img src="img/family.png" alt="" />
-      </div>
-      <div class="learn c-dorange">
-        <p>What do we have to offer?</p>
-        <h2>Learn more</h2>
-      </div>
-      <div class="join c-orange">
-        <p>What are you waiting for?</p>
-        <h2>Join now</h2>
-      </div>
-      <nav class="menu">
-        <a href="#main" class="a-home">Home</a>
-        <a href="" class="a-offer">Our offer</a>
-        <a href="" class="a-us">Why us</a>
-        <a href="" class="a-contact">Contact</a>
-      </nav>
-      <div class="personal-top c-grey">
-        <section>
-          <h1>Your personal financial safety net online.</h1>
-          <button>JOIN NOW</button>
-        </section>
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorum voluptatibus dolore quas dolores facere, expedita nulla nobis quaerat?
-            Error veniam quia id voluptate vitae fugit nemo voluptatem saepe beatae velit, corporis suscipit officiis consectetur. Mollitia vitae quos in
-            blanditiis? Dolorem sapiente mollitia labore unde doloremque facere dolorum nam recusandae! Dolorem sapiente mollitia labore unde doloremque facere
-            dolorum nam recusandae!
+      </section>
+      <section class="learn bc-dorange flex-middle h2">
+        <p class="fat">What do we have to offer?</p>
+        <h2 class="c-white">Learn more</h2>
+      </section>
+      <section class="join bc-orange flex-middle">
+        <p class="fat">What are you waiting for?</p>
+        <h2 class="c-white">Join today</h2>
+      </section>
+    </div>
+    <nav class="menu">
+      <a href="index.html"><p class="fat c-black">Home</p></a>
+      <p class="fat c-lgrey">Our offer</p>
+      <p class="fat c-lgrey">Why us</p>
+      <a href="contact.html"><p class="fat c-lgrey">Contact</p></a>
+    </nav>
+
+    <div class="wrap-two">
+      <section class="personal bc-grey">
+        <article class="text-wrap">
+          <h1 class="c-white">Your personal financial safety net online.</h1>
+          <p class="fat">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ligula vel felis cursus egestas. Etiam consectetur finibus facilisis. Proin
+            accumsan auctor purus, quis finibus tellus accumsan id. Quisque tellus elit, ullamcorper sed mollis ac, interdum vel enim. Pellentesque congue felis
+            eget lorem tempor blandit. Mauris hendrerit ullamcorper ex quis congue donec vel finibus libero.
           </p>
-        </section>
+        </article>
         <section class="posters">
-          <article>
-            <div class="potrait bg-child c-blue"><img src="img/child.png" alt="" /></div>
-            <h3>Children</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ligula vel felis cursus egestas. Etiam consectetur finibus facilisis. Proin
-              accumsan auctor purus, quis finibus tellus accumsan id.
-            </p>
+          <article class="poster bc-white">
+            <div class="face bc-blue"><img src="img/child.png" class="img-child" /></div>
+            <div class="poster-text">
+              <h3>Barn</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ligula vel felis cursus egestas. Etiam consectetur finibus facilisis. Proin
+                accumsan auctor purus, quis finibus tellus accumsan id.
+              </p>
+            </div>
           </article>
-          <article>
-            <div class="potrait bg-child c-orange"><img src="img/adult.png" alt="" /></div>
-            <h3>Just right</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ligula vel felis cursus egestas. Etiam consectetur finibus facilisis. Proin
-              accumsan auctor purus, quis finibus tellus accumsan id.
-            </p>
+          <article class="poster bc-white">
+            <div class="face bc-orange"><img src="img/adult.png" class="img-adult" /></div>
+            <div class="poster-text">
+              <h3>Kvinna</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ligula vel felis cursus egestas. Etiam consectetur finibus facilisis. Proin
+                accumsan auctor purus, quis finibus tellus accumsan id.
+              </p>
+            </div>
           </article>
-          <article>
-            <div class="potrait bg-child c-dorange"><img src="img/old.png" alt="" /></div>
-            <h3>Old fart</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ligula vel felis cursus egestas. Etiam consectetur finibus facilisis. Proin
-              accumsan auctor purus, quis finibus tellus accumsan id.
-            </p>
+          <article class="poster bc-white">
+            <div class="face bc-dorange"><img src="img/old.png" class="img-old" /></div>
+            <div class="poster-text">
+              <h3>Gubbe</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor ligula vel felis cursus egestas. Etiam consectetur finibus facilisis. Proin
+                accumsan auctor purus, quis finibus tellus accumsan id.
+              </p>
+            </div>
           </article>
         </section>
-      </div>
-      <div class="personal-bottom c-orange">
-        <h1>About us</h1>
-        <p>
+      </section>
+      <section class="about bc-orange flex-middle">
+        <h1 class="c-white">About us</h1>
+        <p class="fat">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac ultricies massa. Donec id malesuada magna. Pellentesque aliquet libero erat,
           fermentum commodo sapien congue ac. Integer a elit lorem. Vestibulum id venenatis diam, et eleifend augue. Curabitur ex tortor, auctor lobortis augue
           at, euismod bibendum neque. Aenean ullamcorper nibh vitae orci laoreet, eu dictum nisi ultrices. Sed condimentum nibh neque, at ultricies augue
           facilisis non. Pellentesque a tellus mauris. Nam sodales pretium rutrum. Aenean imperdiet, leo nec consectetur blandit, risus erat commodo tortor, sit
           amet dignissim orci lorem vel felis. Ut tempus dignissim.
         </p>
-      </div>
-
-      <div class="workbox c-blue">
-        <div></div>
-        <h1>How it works?</h1>
-      </div>
-      <div class="workbox c-white">
-        <h2>01</h2>
-        <p>Answer a few questions about yourself</p>
-      </div>
-      <div class="workbox c-lgrey">
-        <h2>02</h2>
-        <p>Choose a plan. Get a quote.</p>
-      </div>
-      <div class="workbox c-white">
-        <h2>03</h2>
-        <p>Answer some questions about your medical history.</p>
-      </div>
-      <div class="workbox c-dorange">
-        <h2>04</h2>
-        <p>Wait 90 sec to get approved.</p>
-      </div>
-      <div class="workbox c-white">
-        <h2>05</h2>
-        <p>Done!</p>
-      </div>
-      <a href="#main" class="back-to-start c-grey"
-        ><p>⇪</p>
-        <p>Take me up again!</p></a
+      </section>
+      <section class="how">
+        <article class="how-box bc-blue flex-middle"><h1>How it works?</h1></article>
+        <article class="how-box bc-white flex-middle">
+          <h2>01</h2>
+          <p class="larger c-dgrey">Answer a few questions about yourself.</p>
+        </article>
+        <article class="how-box bc-lgrey flex-middle">
+          <h2>02</h2>
+          <p class="larger c-dgrey">Choose a plan. <br />Get a quote.</p>
+        </article>
+        <article class="how-box bc-white flex-middle">
+          <h2>03</h2>
+          <p class="larger c-dgrey">Answer some questions about your medical history.</p>
+        </article>
+        <article class="how-box bc-dorange flex-middle">
+          <h2>04</h2>
+          <p class="larger c-dgrey">Wait 90 sec to get approved.</p>
+        </article>
+        <article class="how-box bc-white flex-middle">
+          <h2>05</h2>
+          <p class="larger c-dgrey">Done!</p>
+        </article>
+      </section>
+      <a href="index.html" class="back bc-grey"
+        ><p class="larger c-dgrey flex-middle">^ ^ ^<br />BEAM ME UP TO START, SCOTTY!</p></a
       >
-    </main>
+    </div>
   </body>
 </html>

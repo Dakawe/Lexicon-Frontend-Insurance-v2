@@ -1,0 +1,107 @@
+:root {
+  --dorange: #f17949;
+  --orange: #fab131;
+  --blue: #c7ddea;
+  --grey: #a9a19e;
+  --dgrey: #555555;
+  .bc-blue {
+    background-color: var(--blue);
+  }
+  .bc-orange {
+    background-color: var(--orange);
+  }
+  .bc-dorange {
+    background-color: var(--dorange);
+  }
+  .bc-grey {
+    background-color: var(--grey);
+  }
+  .bc-dgrey {
+    background-color: var(--dgrey);
+  }
+  .bc-white {
+    background-color: white;
+  }
+  .bc-lgrey {
+    background-color: #e4e4e4;
+  }
+}
+
+.flex-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  font-family: "text";
+}
+
+p {
+  font-family: "text";
+}
+.fat {
+  font-weight: bold;
+  font-size: 16px;
+  color: #555555;
+  line-height: 2;
+}
+.larger {
+  font-weight: bold;
+  font-size: 20px;
+  color: #555555;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "header";
+  font-size: 55px;
+}
+h2 {
+  font-family: "header";
+  font-size: 40px;
+}
+h3 {
+  font-family: "header";
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.c-white {
+  color: rgb(255, 255, 255);
+}
+.c-black {
+  color: rgb(0, 0, 0);
+}
+.c-lgrey {
+  color: #a9a19e;
+}
+.c-llgrey {
+  color: #e6e6e6;
+}
+.c-dgrey {
+  color: #323232;
+}
+button {
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 15px;
+  width: 175px;
+  font-weight: bold;
+  box-shadow: 0px 3px 1px rgb(167, 180, 214);
+}
+
+@font-face {
+  font-family: "text";
+  src: url(Fonts/FiraSans-Regular.ttf);
+}
+@font-face {
+  font-family: "header";
+  src: url(Fonts/FrankRuhlLibre-ExtraBold.ttf);
+}
